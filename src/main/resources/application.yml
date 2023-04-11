@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://ustinterview.ccz4poshrx1e.ap-south-1.rds.amazonaws.com:3306/ustinterview
+    username: root
+    password: password123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
